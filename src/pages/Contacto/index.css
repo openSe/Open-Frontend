@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container-contact-main{
+    width: 90vw;
+    margin: 50px auto 125px auto;
+}
+.container-contact{
+    display: flex;
+}
+.h1-contact{
+    margin-bottom: 15px;
+}
+.container-left{
+    width: 50vw;
+    padding: 10px 50px 0 0;
+    margin-left: 5vw;
+}
+.container-left p, label{
+    margin-bottom: 25px;
+
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+}
+.container-left input{
+    padding: 8px;
+    width: 22vw;
+    margin: 10px 0 10px 0;
+  
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+}
+.div-flex{
+    display: flex;
+}
+.div-block input{
+    display: block;
+}
+.desc input{
+    width: 46vw;
+    height: 20vh;
+}
+.container-left span{
+    color: red;
+}
+.button-contact{
+    padding: 10px 40px;
+    border: #032059;
+    border-radius: 25px;
+    margin-top: 10px;
+
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    background-color: #032059;
+}
+.container-right{
+    padding: 40px;
+    background-color: #F5F7FF;
+}
+.container-information{
+    display: flex;
+    margin-bottom: 20px;
+}
+.div-container-information{
+    margin: 5px 10px 0 10px;
+}
+.container-information img{
+    margin-right: 10px;
+}
+.container-p{
+    padding-top: 4px;
+}
+.container-p h2{
+    font-size: 18px;
+}

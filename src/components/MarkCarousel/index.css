@@ -1,0 +1,35 @@
+.carousel-mark-div{
+    border-top: 1px solid #2c2c2c4a;
+    border-bottom: 1px solid #2c2c2c4a;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.div-mark{
+    display: flex;    
+    justify-content: space-around;
+}
+.carousel .slide .img-mark{
+    width: 20vw;
+    height: 9.5vh;
+}
+.control-dots, .carousel-status, .control-arrow, .control-next{
+    display: none;
+}
+@media(max-width: 1024px){
+    .carousel .slide .img-mark{
+        width: 20vw;
+        height: 9vh;
+    }
+}
+@media(max-width: 768px){
+    .carousel .slide .img-mark{
+        width: 20vw;
+        height: 8vh;
+    }
+}
+@media(max-width: 425px){
+    .carousel .slide .img-mark{
+        width: 45vw;
+        height: 7.5vh;
+    }
+}

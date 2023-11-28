@@ -1,0 +1,8 @@
+.carousel{
+    display: flex;
+    margin: auto;
+    width: 80vw;
+}
+.carousel .slide img{
+    width: 100%;
+}

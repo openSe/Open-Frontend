@@ -1,0 +1,275 @@
+.container-master{
+  margin-bottom: 125px;
+}
+
+.container-shopping-car{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-table-car{
+  width: 50vw;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.first-product-car{
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+.div-product-car{
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+.first-product-car img{
+  width: 10vw;
+}
+.first-product-car i{
+  width: 15vw;
+  margin: 0 20px 0 20px;
+}
+th, td{
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+td div{
+  height: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.container-quantity{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  padding: 5px;
+  max-width: 50px;
+  border-radius: 6px;
+  background-color: #F5F7FF;
+  gap: 5px;
+}
+
+.div-quantity{
+  width: 15px;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.div-button{
+  margin: auto;
+}
+
+.button-car{
+  display: flex;
+  background-color: #F5F7FF;
+  border: none;
+  border-radius: 10px;
+  margin-right: 7px;
+}
+
+.container-close-car .button-car img{
+  width: 22px;
+}
+
+.div-close-button{
+  margin: auto auto auto 90%;
+  width: auto;
+}
+
+.button-car:hover{
+  cursor: pointer;
+}
+
+.td-foot td{
+  border-bottom: 0px solid white;
+}
+
+.td-foot a{
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+.td-foot a, .td-button-foot button:hover{
+  cursor: pointer;
+}
+
+.td-button-foot{
+  text-align: end;
+}
+
+.td-button-foot button{
+  color: white;
+  border: 1px solid #032059;
+  background-color: #032059;
+  padding: 5px 10px;
+  border-radius: 25px;
+}
+
+.container-div-shoppingcar{
+  width: 35vw;
+  height: auto;
+  background-color: #F5F7FF;
+  padding: 15px 40px;
+}
+
+.container-div-shoppingcar .h1{
+  margin: 0%;
+  font-size: 26px;
+}
+
+.div-shoppingCar-address{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.first-div-shopping{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin: 10px 0 10px 0;
+}
+
+.first-div-shopping div{
+  display: flex;
+  align-items: center;
+}
+
+.link-address{
+  text-align: center;
+  margin: auto;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #032059;
+  border: 1px solid #032059;
+  border-radius: 20px;
+  color: white;
+  padding: 5px;
+}
+
+.h2{
+  font-weight: 500;
+  margin: 10px 0 5px 0;
+  font-size: 22px;
+}
+
+.container-div-shoppingcar h3{
+  font-size: 22px;
+}
+
+.div-shoppingCar-price h3{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.div-summary-foot{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.div-summary-foot button{
+  display: block;
+  margin: auto auto 10px auto;
+  width: 90%;
+  font-size: 16px;
+  padding: 5px;
+  background-color: #032059;
+  border: 1px solid #032059;
+  border-radius: 25px;
+  color: white;
+}
+
+.div-summary-foot button, .div-summary-foot div:hover{
+  cursor: pointer;
+}
+
+.div-summary-foot div{
+  margin: auto auto 10px auto;
+  width: 90%;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.div-summary-foot a{
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+.container-div-shoppingcar .h1{
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+@media(max-width: 1024px){
+  .div-product-car{
+    width: 20vw;
+  }
+  .container-table-car td{
+    font-size: 14px;
+    padding: 5px;
+  }
+  .container-div-shoppingcar{
+    width: 35vw;
+  }
+  .address-div-p{
+    width: 90%;
+  }
+}
+@media(max-width: 768px){
+  .container-shopping-car{
+    display: block;
+  }
+  .div-product-car{
+    width: 45vw;
+  }
+  .container-table-car{
+    width: 80vw;
+  }
+  .container-div-shoppingcar{
+    width: 80vw;
+    margin: auto;
+  }
+}
+@media(max-width: 425px){
+  .container-div-shoppingcar{
+    width: 90vw;
+    margin-bottom: 20px;
+  }
+  .img-shopping-mobile, .content-shopping-mobile, .desc-shopping-mobile{
+    display: flex;
+    margin-bottom: 5px;
+  }
+  .img-shopping-mobile{
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+  }
+  .shopping-container-mobile{
+    width: 90vw;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+  .content-shopping-mobile p{
+    padding-right: 18vw;
+  }
+  .content-shopping-mobile .content-p{
+    padding-right: 13vw;
+  }
+  .desc-div{
+    margin: auto 8.5vw auto auto;
+  }
+}

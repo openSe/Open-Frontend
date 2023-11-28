@@ -1,0 +1,73 @@
+.services-container {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.div-services-content{
+    width: 60%;
+}
+.services-h1{
+    font-weight: 600;
+}
+.p-sevices{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.label-services{
+    display: block;
+    margin-bottom: 3px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.form-container{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+}
+.form-container form{
+    width: 40vw;
+    margin-right: 30px;
+}
+.form-container input{
+    margin: 3px 0;
+    width: 100%;
+}
+.form-container select{
+    padding: 8px;
+    font-size: 15px;
+    margin: 3px 0;
+}
+.form-container textarea{
+    width: 100%;
+}
+.button-services{
+    margin-top: 5px;
+    display: block;
+    padding: 10px 40px;
+    background-color: #032059;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+@media (max-width: 768px){
+    .services-h1, .p-sevices{
+        width: 80vw;
+    }
+    .form-container form{
+        width: 40vw;
+        margin-right: 0px;
+    }
+}
+@media (max-width: 425px){
+    .form-container{
+        display: block;
+    }
+    .services-h1, .p-sevices{
+        width: 80vw;
+    }
+    .form-container form{
+        width: 80vw;
+    }
+}

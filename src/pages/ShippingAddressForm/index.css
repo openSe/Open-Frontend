@@ -1,0 +1,122 @@
+.checkout-main-contain{
+    width: 90vw;
+    margin: auto;
+}
+.checkout-title, .checkout-main-section, .checkout-items-summary,.checkout-items-desc div{
+    display: flex;
+}
+.checkout-title{
+    margin-bottom: 30px;
+}
+.checkout-title div{
+    margin: auto 0 auto 40px;
+    border: 1px solid #032059;
+    color: #032059;
+    padding: 5px 30px;
+    border-radius: 25px;
+}
+.checkout-main h2{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    width: 58vw;
+}
+.checkout-form{
+    margin-top: 10px;
+    width: 60vw;
+}
+.checkout-summary{
+    width: 30vw;
+    height: fit-content;
+    padding: 20px 20px;
+    background-color: #F5F7FF;
+}
+.checkout-summary h2{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    width: auto;
+}
+.checkout-items-summary{
+    width: 100%;
+    margin-top: 10px;
+}
+.checkout-items-img{
+    width: 40%;
+}
+.checkout-items-desc{
+    width: 60%;
+}
+.checkout-items-desc div p{
+    margin-right: 10px;
+}
+.checkout-form div label{
+    display: block;
+    margin: 0;
+}
+.checkout-form form{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 10px;
+    border-bottom: 2px  solid #ccc;
+}
+.checkout-form div input{
+    width: 80%;
+}
+.checkout-form div textarea{
+    width: 90%;
+    margin: 10px 0;
+    padding-bottom: 10px;
+}
+.button-checkout{
+    padding: 10px 40px;
+    background-color: #032059;
+    width: fit-content;
+    color: #ffffff;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+@media (max-width: 768px){
+    .checkout-main h2{
+        width: 46vw;
+    }
+    .checkout-summary h2{
+        width: auto;
+    }
+    .checkout-form form{
+        grid-template-columns: auto;
+    }
+    .checkout-summary{
+        width: 45vw;
+    }
+    .checkout-form div input{
+        width: 90%;
+    }
+}
+@media (max-width: 425px){
+    .checkout-main-section, .checkout-title, .checkout-form, .checkout-summary{
+        display: block;
+        width: 90vw;
+    }
+    .checkout-summary{
+        margin-bottom: 20px;
+    }
+    .checkout-title div{
+        margin: 10px 0;
+        width: fit-content;
+    }    
+    .checkout-title h1{
+        font-size: 30px;
+    }
+    .checkout-form div input{
+        width: 90vw;
+        margin-right: 0;
+    }
+    .checkout-form div textarea{
+        width: 100%;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    .checkout-main h2{
+        width: auto;
+    }
+}

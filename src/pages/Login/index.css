@@ -1,0 +1,121 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container-master{
+  width: 90vw;
+  margin: auto;
+}
+
+.h1{
+  margin-top: 50px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.container-main{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 125px;
+}
+
+.container{
+  width: 45vw;
+  height: auto;
+  margin: 0 25px 0 25px;
+  padding: 40px 55px 40px 55px;
+
+  background-color: #F5F7FF;
+}
+
+.container h2{
+  margin-bottom: 25px;
+
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.container p, ul, label{
+  margin-bottom: 25px;
+
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.container input{
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0 10px 0;
+
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.container input::placeholder{
+  color: #50505094;
+}
+
+.button-login{
+  margin-top: 10px;
+}
+
+.button-login button{
+  padding: 15px 40px;
+  border-radius: 25px;
+  margin: 0 30px 15px 0;
+  color: white;
+  background-color: #032059;
+  border: none;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.link-button{
+  text-decoration: none;
+  color: #032059;
+  font-size: 16px;
+}
+
+.link-button:hover{
+  text-decoration: underline;
+}
+
+ul{
+  margin: 0 0 40px 20px;
+}
+
+.button-register{
+  width: fit-content;
+  padding: 15px 40px;
+  border-radius: 25px;
+  margin-top: 20px;
+
+  color: white;
+  text-decoration: none;
+  background-color: #032059;
+}
+.container-second{
+  width: 37vw;
+}
+@media (max-width: 768px){
+  .button-register{
+    text-align: center;
+  }
+}
+@media (max-width: 425px){
+  .container-main{
+    display: block;
+  }
+  .container{
+    width: 100%;
+    margin: 30px auto;
+  }
+}

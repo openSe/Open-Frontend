@@ -1,0 +1,53 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+
+  font-family: 'Poppins';
+  font-weight: 300;
+}
+.container-register{
+  margin: auto;
+  width: 90vw;
+  margin-top: 50px;
+  margin-bottom: 125px;
+}
+.h1-register{
+  margin: 0 0 20px 0
+}
+.p-register{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+span{
+  color: red;
+}
+.container-register form{
+  width: 70vw;
+  margin: auto;
+}
+.div-flex-register{
+  display: flex;
+  width: 25vw;
+}
+input{
+  padding: 8px;
+  width: 30vw;
+  margin: 10px 100px 10px 0;
+}
+.button-register{
+  margin-top: 10px;
+  font-size: 15px;
+  border: #032059;
+}
+@media(max-width: 425px){
+  .container-register form{
+    width: 90vw;
+  }
+  .div-flex-register label{
+    width: 150px;
+  }
+  .container-register input{
+    margin-right: 16vw;
+  }
+}

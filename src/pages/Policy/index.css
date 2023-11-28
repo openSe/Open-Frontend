@@ -1,0 +1,27 @@
+.container-information-main{
+    display: flex;
+    justify-content: space-evenly;
+    width: 75vw;
+    margin: 7vh auto 10vh auto;
+    text-align: justify;
+}
+
+.container-information-main div:first-child{
+    width: 30vw;
+}
+
+.h1-information{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.span-strong{
+    font-weight: 600;
+    color: black;
+}
+
+@media(min-width: 1025px){
+    .container-information-main div:first-child{
+        width: 20vw;
+    }
+}
