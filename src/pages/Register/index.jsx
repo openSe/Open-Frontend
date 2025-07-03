@@ -25,9 +25,9 @@ function Register() {
     console.log("Email:", email);
     console.log("Password:", password);
     // Reset the form
-    setUsername("");
+/*    setUsername("");
     setEmail("");
-    setPassword("");
+    setPassword("");*/
   };
 
   return (
